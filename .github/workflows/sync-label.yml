@@ -4,7 +4,8 @@ on:
     paths:
       - .github/labels.yml
 jobs:
-  build:
+  label-syncer:
+    name: Label Syncer
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
